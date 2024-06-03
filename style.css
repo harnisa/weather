@@ -118,13 +118,14 @@ a:hover, a:focus {
 	border-radius: 0;
 	outline: none;
 	width: 100%;
-	margin: 0 0 15px 0;
+	margin: 15px;
 	padding: 0;
 	box-shadow: none;
 	box-sizing: content-box;
 	transition: all 0.3s;
 	line-height: 30px;
 }
+
 #date {
 	font-size: 22px;
 	font-weight: 600;
@@ -133,6 +134,10 @@ a:hover, a:focus {
 }
 .date-section{
 	padding: 30px 0;
+}
+
+.glyphicon {
+    font-size: 32px;
 }
 .wi-main {
 	font-size: 5.5em;
