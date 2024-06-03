@@ -213,12 +213,20 @@ a:hover, a:focus {
 .card-content p {
 	margin: 0;
 }
-
 .day{
 	font-size: 20px;
 	font-weight: 600;
 }
-
+.day-card{
+	width: 25%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	padding-bottom: 0;
+	box-sizing: border-box;
+}
 .days-box {
 	padding: 30px 0;
 	-webkit-box-shadow: 0 3px 15px rgba(0,0,0,0.7);
