@@ -156,7 +156,6 @@ a:hover, a:focus {
 	display: inline-block;
 }
 .unit-block {
-	margin-left: -9px;
 	vertical-align: top;
 }
 .min-max-block {
