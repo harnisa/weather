@@ -420,10 +420,10 @@ a:hover, a:focus {
 	}
 	.w-header input {
 		text-align: center;
-		font-size: 26px;
+		font-size: 28px;
 	}
 	.day {
-		font-size: 28px;
+		font-size: 26px;
 	}
 	.day-card{
 		width: 50%;
@@ -444,10 +444,10 @@ a:hover, a:focus {
 	}
 	.w-header input {
 		text-align: center;
-		font-size: 30px;
+		font-size: 28px;
 	}
 	.day {
-		font-size: 28px;
+		font-size: 26px;
 	}
 	.day-card{
 		width: 50% ;
