@@ -3,22 +3,22 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	background-image: url('weather.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    	background-size: cover;
+    	background-position: center;
+    	background-repeat: no-repeat;
 	height: 100vh;
-    margin: 0;
-    padding: 0;
+    	margin: 0;
+    	padding: 0;
 }
 
 .container {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    	width: 100%;
+    	margin: 0 auto;
+    	text-align: center;
+    	padding: 20px 0;
+    	background-color: rgba(0, 0, 0, 0.5); 
+    	border-radius: 10px;
+    	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 a:hover, a:focus {
@@ -219,11 +219,11 @@ a:hover, a:focus {
 }
 .day-card{
 	width: 25%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    	float: left;
+    	position: relative;
+    	min-height: 1px;
+    	padding-right: 15px;
+    	padding-left: 15px;
 	padding-bottom: 0;
 	box-sizing: border-box;
 }
@@ -238,6 +238,7 @@ a:hover, a:focus {
 }
 .days-box > div {
 	border-left: 1px solid #ddd;
+	margin-bottom: 0;
 }
 .days-box .day-first {
 	border: none;
@@ -413,3 +414,27 @@ a:hover, a:focus {
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
 	right: 0px; 
 }
+
+@media only screen and ( max-width:932px ) { 
+	body {
+		font-size: 24px;
+	}
+	.w-header input {
+		text-align: center;
+		font-size: 30px;
+	}
+	.day {
+		font-size: 28px;
+	}
+	.day-card{
+		width: 50% ;
+		padding-bottom: 50px;
+	}
+	.days-box {
+		padding: 50px 0 0 0;
+	}
+	.days-box > div {
+		margin-bottom: 20px;
+	}
+}
+
