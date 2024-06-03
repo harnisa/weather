@@ -58,7 +58,7 @@ a:hover, a:focus {
 .hr-title {
 	border-width: 2px;
 	max-width: 30%;
-	margin: 15px auto;
+	margin: 0px auto 30px;
 }
 .hr-title-primary {
 	border-color: #039be5;
