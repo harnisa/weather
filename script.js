@@ -185,7 +185,7 @@ Weather.prototype.forecast = function () {
     });
   }
 
-  $.getJSON("https://api.openweathermap.org/data/2.5/forecast/daily", { q: this.location, cnt: 4, units: "metric", appid: "ae1a5729bea7ac3a3e1c705ca581413d" }, function (json) {
+  $.getJSON("https://api.openweathermap.org/data/2.5/forecast/daily", { q: this.location, cnt: 4, units: "metric", appid: "bc1301b0b23fe6ef52032a7e5bb70820" }, function (json) {
     setForecast.call(this, json);
     displayForecast.call(this);
   }.bind(this));
