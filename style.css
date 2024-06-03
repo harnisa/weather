@@ -350,6 +350,10 @@ a:hover, a:focus {
 }
 
 /* Switch button */
+
+.switch-section{
+	padding: 20px 0;
+}
 .onoffswitch {
 	position: relative; width: 80px;
 	-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
