@@ -31,8 +31,7 @@ a:hover, a:focus {
 #byMe{
 	color: #fff;
 	display: inline-block;
-	margin-left: 5px;
-	margin-top: 20px;
+	margin: 20px 0;
 }
 
 .bg-primary {
