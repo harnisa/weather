@@ -79,6 +79,7 @@ a:hover, a:focus {
 	float: left;
 	min-width: 80%;
 	max-width: 90%;
+	font-size: 24px;
 }
 
 /* Tooltip text */
