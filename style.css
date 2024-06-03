@@ -125,6 +125,8 @@ a:hover, a:focus {
 	line-height: 30px;
 }
 #date {
+	font-size: 22px;
+	font-weight: 600;
 	line-height: 30px;
 }
 .wi-main {
